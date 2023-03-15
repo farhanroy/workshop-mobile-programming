@@ -5,7 +5,7 @@ class Module2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return _Tugas();
+    return _Percobaan3();
   }
 }
 
@@ -183,16 +183,14 @@ class _LatihanState extends State<_Latihan> {
 
   void _incrementCounter() {
     setState(() {
-      _counter++;
-    });
-
-    _text = "Ganjil";
-
-    for (int i = 0; i <= _counter; i+1) {
-      if (i % 3 == 0) {
-        _text += "$i, ";
+      _text = "";
+      ++_counter;
+      for (int i = 1; i <= _counter; i++) {
+        if (i % 3 == 0) {
+          _text += "$i, ";
+        }
       }
-    }
+    });
   }
 
   @override
@@ -213,7 +211,7 @@ class _LatihanState extends State<_Latihan> {
               style: Theme.of(context).textTheme.headline4,
             ),
             Text(
-              '$_text',
+              _text,
               style: Theme.of(context).textTheme.headline3,
             ),
           ],
