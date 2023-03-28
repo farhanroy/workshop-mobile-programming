@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:workshop_mobile_programming/module2.dart';
 import 'package:workshop_mobile_programming/module3.dart';
 import 'package:workshop_mobile_programming/module4.dart';
+import 'package:workshop_mobile_programming/module5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: Module4(),
+        home: Module5(),
       ),
     );
   }
