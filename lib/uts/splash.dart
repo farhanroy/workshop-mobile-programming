@@ -23,7 +23,7 @@ class Splash extends StatelessWidget {
               blurRadius: 20,
               textSize: 54,
             ),
-            const SizedBox(height: 50,),
+            const SizedBox(height: 300,),
             NeonAddItemButton(
                 borderColor: Colors.deepOrange.shade50,
                 spreadColor: Colors.deepOrange,

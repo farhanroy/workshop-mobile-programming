@@ -73,7 +73,7 @@ class _PlayView extends StatelessWidget {
               children: [
                 const SizedBox(height: 100,),
                 _Announce(),
-                const SizedBox(height: 30,),
+                const SizedBox(height: 80,),
                 _Board()
               ],
             ),
@@ -159,8 +159,8 @@ class _Board extends StatelessWidget {
                         });
                     },
                     child: NeonContainer(
-                      width: 100,
-                      height: 100,
+                      width: 95,
+                      height: 95,
 
                       child: Center(
                           child: NeonText(
